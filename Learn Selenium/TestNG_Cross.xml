@@ -1,0 +1,22 @@
+<suite name="Suite" parallel="tests">
+	<test name="ChromeTest">
+		<parameter name="browser" value="Chrome" />
+		<classes>
+			<class name="OrangeHRM.CrossBrowser_Test" />
+		</classes>
+	</test>
+	
+	<test name="FirefoxTest">
+		<parameter name="browser" value="Firefox" />
+		<classes>
+			<class name="OrangeHRM.CrossBrowser_Test" />
+		</classes>
+	</test>
+	
+	<test name="IETest">
+		<parameter name="browser" value="IE" />
+		<classes>
+			<class name="OrangeHRM.CrossBrowser_Test" />
+		</classes>
+	</test>
+</suite>

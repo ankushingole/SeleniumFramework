@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<groups>
+			<run>
+				<include name="sanity" />
+			</run>
+			<classes>
+				<class name="TestNGPractice.NewTest4" />
+			</classes>
+		</groups>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Practice]">
+  <test name="SanityTest(failed)">
+    <classes>
+      <class name="TestNGPractice.TestUsingXML">
+        <methods>
+          <include name="verifyOrangeHRM"/>
+          <include name="verifyFacebook"/>
+          <include name="verifySBI"/>
+        </methods>
+      </class> <!-- TestNGPractice.TestUsingXML -->
+      <class name="TestNGPractice.UseofMethods">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- TestNGPractice.UseofMethods -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [Practice] -->

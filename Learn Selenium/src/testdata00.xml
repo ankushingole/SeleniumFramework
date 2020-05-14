@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Practice">
+  <test name="SanityTest">
+    <classes>
+     <class name="TestNGPractice.UseofMethods"/>
+      <class name="TestNGPractice.TestUsingXML"/>
+    </classes>
+  </test>
+</suite>
