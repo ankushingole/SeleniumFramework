@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Test Cases]">
+  <test name="My test cases(failed)">
+    <classes>
+      <class name="com.testng.Assignleave">
+        <methods>
+          <include name="assignLeave"/>
+        </methods>
+      </class> <!-- com.testng.Assignleave -->
+    </classes>
+  </test> <!-- My test cases(failed) -->
+</suite> <!-- Failed suite [Regression Test Cases] -->

@@ -1,0 +1,12 @@
+<suite name="Suite" parallel="false">
+	<listeners>
+		<listener class-name="com.qa.tests.ITestListner" />
+	</listeners>
+	<test name="ChromeTest">
+
+		<classes>
+			<class name="com.qa.tests.Login" />
+		</classes>
+
+	</test>
+</suite>

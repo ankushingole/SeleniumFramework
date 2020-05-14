@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+	<test name="Test">
+		<parameter name="MyParam" value="SSP" />
+		<classes>
+			<class name="com.qa.tests.TestNG_Class" />
+		</classes>
+	</test>
+</suite>
