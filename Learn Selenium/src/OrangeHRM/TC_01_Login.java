@@ -10,7 +10,7 @@ public class TC_01_Login {
 	static WebDriver driver;
 
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "D:\\SELENIUM SOFT\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "D:\\SELENIUM SOFT\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
@@ -23,7 +23,7 @@ public class TC_01_Login {
 		String url = driver.getCurrentUrl();
 
 		if (url.equals("https://opensource-demo.orangehrmlive.com/index.php/dashboard")) {
-			System.out.println("LOgin Successful---Passed");
+			System.out.println("Login Successful---Passed");
 		} else {
 			System.out.println("Login failed---Failed");
 		}

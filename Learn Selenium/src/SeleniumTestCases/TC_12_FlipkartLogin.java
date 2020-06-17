@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class TC_FlipkartLogin {
+public class TC_12_FlipkartLogin {
 
 	public static void main(String[] args) throws InterruptedException {
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Ecommerce" parallel="false">
+  <test name="Smoke Tests">
+    <classes>
+      <class name="TestNGTestCases.TC_07"/>
+      <class name="TestNGTestCases.TC_08"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+ 
