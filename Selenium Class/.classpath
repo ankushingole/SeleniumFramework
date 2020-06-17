@@ -4,7 +4,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="D:/SELENIUM SOFT/selenium-java-2.3.0.jar"/>
 	<classpathentry kind="lib" path="D:/SELENIUM SOFT/selenium-java-2.46.0-srcs.jar"/>
-	<classpathentry kind="lib" path="D:/SELENIUM SOFT/selenium-server-standalone-2.52.0.jar"/>
 	<classpathentry kind="lib" path="D:/SELENIUM SOFT/poi-4.0.1/poi-4.0.1.jar"/>
 	<classpathentry kind="lib" path="D:/SELENIUM SOFT/poi-4.0.1/poi-examples-4.0.1.jar"/>
 	<classpathentry kind="lib" path="D:/SELENIUM SOFT/poi-4.0.1/poi-excelant-4.0.1.jar"/>
@@ -33,6 +32,7 @@
 			<attribute name="maven.scope" value="compile"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="D:/SELENIUM SOFT/geckodriver-v0.25.0-win64.zip"/>
+	<classpathentry kind="lib" path="D:/SELENIUM SOFT/apache-maven-3.6.0/lib/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="D:/SELENIUM SOFT/cucumber jars/selenium-server-standalone-2.52.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
